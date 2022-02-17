@@ -10,6 +10,7 @@ import java.sql.Statement;
 public class PDF_Ejemplo {
 	
 	public static void main(String[]args) {
+		
 		//Donde se localiza la BD
 		
 		String url="jdbc:postgresql://localhost:5432/lineas";
@@ -40,7 +41,7 @@ public class PDF_Ejemplo {
 			/*try {
 				
 				Statement s = conexion.createStatement();
-				
+				+
 				ResultSet rs = s.executeQuery("SELECT * FROM Ciudades");
 				
 				while(rs.next()){
